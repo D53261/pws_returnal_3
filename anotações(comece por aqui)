@@ -1,0 +1,13 @@
+Inicia-se a aplicação usando o comando no terminal:
+# python manage.py runserver
+
+Caso necessite de criar novamente o banco de dados sqlite3, use o comando:
+# python manage.py makemigrations para alterações no banco de dados
+# python manage.py migrate para criar o banco de dados
+
+Para utilizar os recursos da aplicação, é necessário acessar o endereço:
+# http://127.0.0.1:8000/api/docs/
+E então será possível visualizar a documentação da API e realizar as atividades propostas.
+
+Todas as extenções ou bibliotecas que devem ser instaladas em sua máquina ou ambiente virtual estão listadas no arquivo requirements.txt, que pode ter as extenções rapidamente instaladas com o seguinte comando no terminal:
+# pip install -r requirements.txt
